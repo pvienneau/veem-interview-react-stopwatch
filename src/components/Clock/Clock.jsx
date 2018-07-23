@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import './Clock.css'
 
 class Clock extends Component {
@@ -37,6 +38,15 @@ class Clock extends Component {
       </div>
     )
   }
+}
+
+Clock.defaultProps = {
+  seconds: 0,
+}
+
+Clock.propTypes = {
+  seconds: PropTypes.number,
+  lapCount: PropTypes.number,
 }
 
 export default Clock

@@ -1,0 +1,72 @@
+@import 'styles/includes.scss';
+
+.paletteDemo {
+  display: flex;
+
+  > * {
+    margin: 0 5px;
+  }
+
+  i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    code {
+      font-style: normal;
+    }
+
+    div {
+      height: 100px;
+      width: 100px;
+    }
+
+    &.primary-dark {
+      div {
+        background-color: $primary-dark;
+      }
+    }
+
+    &.primary {
+      div {
+        background-color: $primary;
+      }
+    }
+
+    &.primary-light {
+      div {
+        background-color: $primary-light;
+      }
+    }
+
+    &.secondary-dark {
+      div {
+        background-color: $secondary-dark;
+      }
+    }
+
+    &.secondary {
+      div {
+        background-color: $secondary;
+      }
+    }
+
+    &.secondary-light {
+      div {
+        background-color: $secondary-light;
+      }
+    }
+
+    &.white {
+      div {
+        background-color: $white;
+      }
+    }
+
+    &.black {
+      div {
+        background-color: $black;
+      }
+    }
+  }
+}
