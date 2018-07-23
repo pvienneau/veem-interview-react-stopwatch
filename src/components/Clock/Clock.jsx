@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import './Time.css'
+import './Clock.css'
 
-class Time extends Component {
+class Clock extends Component {
   doubleDigit = (num = '') => {
     return `00${num}`.substr(-2);
   }
@@ -22,7 +22,7 @@ class Time extends Component {
     const hasLapCount = lapCount !== undefined
 
     return (
-      <div className="time">
+      <div className="clock">
         <label>
           {this.formatTime()}
         </label>
@@ -39,4 +39,4 @@ class Time extends Component {
   }
 }
 
-export default Time
+export default Clock

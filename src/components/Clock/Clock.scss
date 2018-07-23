@@ -1,6 +1,9 @@
 @import 'styles/includes.scss';
 
-.time {
+.clock {
+  font-size: 75px;
+  line-height: 1em;
+
   .lapCount {
     font-size: 20px;
     opacity: 0.75;

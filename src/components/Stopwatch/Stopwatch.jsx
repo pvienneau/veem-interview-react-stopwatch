@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import classNames from 'classnames'
 import Button from 'components/Button/Button.jsx'
-import Time from 'components/Time/Time.jsx'
+import Clock from 'components/Clock/Clock.jsx'
 import './Stopwatch.css'
 
 class Stopwatch extends Component {
@@ -61,7 +61,7 @@ class Stopwatch extends Component {
 
     return (
       <div className="stopwatch">
-        <Time
+        <Clock
           seconds={seconds}
           lapCount={laps.length}
         />

@@ -3,10 +3,8 @@
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .stopwatch .time {
-    font-size: 75px;
-    margin-bottom: 15px;
-    line-height: 1; }
+  .stopwatch .clock {
+    margin-bottom: 15px; }
   .stopwatch .controls {
     margin-top: 15px;
     display: flex;
