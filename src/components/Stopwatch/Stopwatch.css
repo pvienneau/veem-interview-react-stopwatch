@@ -1,0 +1,16 @@
+.stopwatch {
+  font-family: 'Source Code Pro', monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .stopwatch .time {
+    font-size: 75px;
+    margin-bottom: 15px;
+    line-height: 1; }
+  .stopwatch .controls {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .stopwatch .controls .button {
+      margin: 0 5px; }
