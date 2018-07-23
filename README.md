@@ -33,7 +33,7 @@ Buttons will require the following properties and behaviours:
 - Based on the button, its coloring will be different. You can use the SCSS color variables for this.
 - Don't forget to include a hover state and disabled state to each button
 
-2. **State Management** Now that we are rendering buttons, let's tie those into our Stopwatch component and handle user interactions and state management. The following behaviours should be accounted for:
+2. **Basic State Management** Now that we are rendering buttons, let's tie those into our Stopwatch component and handle user interactions and state management. The following behaviours should be accounted for:
 - When I click on the **play** button, the timer should start incrementing. This should also turn the **play** button into a **stop** button.
 - When I click on the **stop** button, the timer should stop running and the time should reset itself.
 - When I click on the **pause** button, the time should stop running but the time should remain. Clicking on the **play** button again should continue incrementing the timer.
