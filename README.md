@@ -7,11 +7,11 @@ Application will load at `http://localhost:3000`.
 
 ## Instructions
 
-The goal of this exercise is to build out a stopwatch. We will build this out incrementally. The goal isn't to necessarily complete each step, but rather being able to demonstrate the abilities requested by each step.
+The goal of this exercise is to build out a stopwatch. We will build this out incrementally. The goal isn't to complete all steps, but rather being able to demonstrate the abilities requested by each step.
 
 A small mock up is included in the root directory (`design.png`) in order to guide you with the visual styling.
 
-Note that a SCSS color palette matching this design is offered to you, as well as font awesome in order to offer you icons to use. When you will run the application for the first time, demo components will be visible to you in order to show you this information as you may use these during the development of this application.
+Note that a SCSS color palette matching this design is offered to you, as well as fontawesome icons in order to offer you the necessary icons and colors to fulfill the design. When you will run the application for the first time, demo components will be visible to you in order to show you this information as you may use these during the development of this application. You can remove these components from the render.
 
 ## Expectations
 It is not expected that you will be able to complete all steps of this exercise in the time you have. The main objective of this exercise is to allow you to demonstration your abilities in various facets of SPA development in React.
@@ -33,7 +33,7 @@ Buttons will require the following properties and behaviours:
 - Based on the button, its coloring will be different. You can use the SCSS color variables for this.
 - Don't forget to include a hover state and disabled state to each button
 
-2. **State Management** Now that we are rendering buttons, let's tied those into our Stopwatch component and handle user interactions and manage state. The following behaviours should occur:
+2. **State Management** Now that we are rendering buttons, let's tie those into our Stopwatch component and handle user interactions and state management. The following behaviours should be accounted for:
 - When I click on the **play** button, the timer should start incrementing. This should also turn the **play** button into a **stop** button.
 - When I click on the **stop** button, the timer should stop running and the time should reset itself.
 - When I click on the **pause** button, the time should stop running but the time should remain. Clicking on the **play** button again should continue incrementing the timer.
@@ -49,3 +49,4 @@ Buttons will require the following properties and behaviours:
 4. **Display Formatting** Let's write our own `Clock` component.
 - Delete the `Clock.jsx` component (you can keep the `.scss` file)
 - Recreate the component in order to display the correctly hour/minute/seconds based on the total number of seconds provided via props.
+- Make sure that each value representing the number of hours, minutes and seconds should always display two digits.
