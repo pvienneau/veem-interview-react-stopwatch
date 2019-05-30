@@ -11,6 +11,8 @@ The goal of this exercise is to build out a stopwatch. We will build this out in
 
 A small mock up is included in the root directory (`design.png`) in order to guide you with the visual styling.
 
+![Design screenshot](https://github.com/patrickvienneau/veem-interview-react-stopwatch/blob/master/design.png)
+
 Note that a SCSS color palette matching this design is offered to you, as well as fontawesome icons in order to offer you the necessary icons and colors to fulfill the design. When you will run the application for the first time, demo components will be visible to you in order to show you this information as you may use these during the development of this application. You can remove these components from the render.
 
 ## Expectations
