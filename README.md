@@ -14,9 +14,9 @@ A small mock up is included in the root directory (`design.png`) in order to gui
 Note that a SCSS color palette matching this design is offered to you, as well as fontawesome icons in order to offer you the necessary icons and colors to fulfill the design. When you will run the application for the first time, demo components will be visible to you in order to show you this information as you may use these during the development of this application. You can remove these components from the render.
 
 ## Expectations
-It is not expected that you will be able to complete all steps of this exercise in the time you have. The main objective of this exercise is to allow you to demonstration your abilities in various facets of SPA development in React.
+It is not expected that you will be able to complete all steps of this exercise in the time you have. The main objective of this exercise is to allow you to demonstrate your abilities in various facets of SPA development in React.
 
-Having said that, it's expected that your code will demonstrate the following traits:
+That being said, it is expected that your code will demonstrate the following traits:
 - Scalability
 - Re-usability
 - Simplicity
@@ -27,11 +27,12 @@ Having said that, it's expected that your code will demonstrate the following tr
 
 The layout has the following requirements:
 - Consider the stopwatch to be the sole functional module on the page. Therefore, make sure that it's always centered on the screen, both horizontally and vertically.
+- Don't be concerned with small screens layout and design
 
 Buttons will require the following properties and behaviours:
 - Each will render a unique icon. Consider that the play button turns into a stop button when the stopwatch is running.
-- Based on the button, its coloring will be different. You can use the SCSS color variables for this.
 - Don't forget to include a hover state and disabled state to each button
+- Based on the button and state, its coloring will be different. You can use the SCSS color variables for this.
 
 2. **Basic State Management** Now that we are rendering buttons, let's tie those into our Stopwatch component and handle user interactions and state management. The following behaviours should be accounted for:
 - When I click on the **play** button, the timer should start incrementing. This should also turn the **play** button into a **stop** button.
